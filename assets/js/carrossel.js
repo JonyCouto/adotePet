@@ -1,7 +1,6 @@
 function movimentaCarrosel(i, tamanhoSlide, slide){
     i++
     i > tamanhoSlide - 1 ? i = 0 : i = i
-    console.log(i)
     slide.style.transform = `translateX(${-i*100}%)`
     setTimeout(() => {
         movimentaCarrosel(i, tamanhoSlide, slide)

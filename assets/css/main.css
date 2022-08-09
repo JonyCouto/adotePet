@@ -1,53 +1,15 @@
-*{
-    box-sizing: border-box;
-    text-decoration: none;
-    margin: 0;
-}
-.cabecalho{
-    grid-area: cabecalho;
-    background-color: teal;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    box-shadow: 0px 2px 8px 2px rgb(158, 157, 153);
-}
-.logo{
-    height: 100%;
-    display: flex;
-}
-.logo > h1{
-    color: white;
-    font-size: 3.4em;
-    margin-right: 20px;
-}
-.logo > img{
-    height: 100%;
-    background-color: teal;
-}
-.menu{
-    font-size: 1.5em;
-    font-weight: bold;
-}
-.menu > a{
-    color: white;
-    padding: 20px;
-}
-.menu > a:hover {
-    color: white;
-    background-color: darkblue;
-    border-radius: 30px;
-}
 .adote{
     grid-area: adote;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 .slide{
     grid-area: slide;
     overflow: hidden;
     box-shadow: 0px 2px 8px 2px rgb(158, 157, 153);
+    margin-bottom: 30px;
 }
 .container{
     display: flex;
@@ -80,7 +42,7 @@
 }
 .adote > img{
     height: 100%;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 .atencaoAdocao{
     display: flex;
@@ -104,35 +66,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
 }
-.rodape{
-    grid-area: rodape;
-    background-color: gainsboro;
-    padding: 20px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.rodape > p {
-    font-size: 1.2em;
-    font-weight: 700;
-    color: darkblue;
-}
-.rodape > a{
-    color: darkblue;
-    font-weight: bold;
-    font-size: 1.2em;
-    padding-left: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.rodape > a > img{
-    width: 25px;
-    height: 25px;
-}
-.rodape > a > p{
-    padding-left: 10px;
-}
 .corpoIndex{
     display: grid;
     min-height: 100vh;
@@ -144,6 +77,5 @@
     'slide'
     'adote'
     'rodape';
-    row-gap: 20px;
     font-family: 'Nunito', sans-serif;
 }

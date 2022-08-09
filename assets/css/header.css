@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+}
+.cabecalho{
+    grid-area: cabecalho;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: teal;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 3px 5px rgb(2, 95, 95);
+}
+.logo{
+    height: 100%;
+    display: flex;
+}
+.logo > h1{
+    color: white;
+    font-size: 3.4em;
+    margin-right: 20px;
+}
+.logo > img{
+    height: 100%;
+    background-color: teal;
+}
+.menu{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.menu > a{
+    color: white;
+    padding: 20px;
+}
+.menu > a:hover {
+    color: white;
+    background-color: rgb(7, 150, 150);
+    box-shadow: -2px 5px 5px rgb(1, 92, 92);
+    border-radius: 30px;
+}

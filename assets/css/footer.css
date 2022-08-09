@@ -1,0 +1,29 @@
+.rodape{
+    grid-area: rodape;
+    background-color: gainsboro;
+    padding: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.rodape > p {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: darkblue;
+}
+.rodape > a{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape > a > img{
+    width: 25px;
+    height: 25px;
+}
+.rodape > a > p{
+    padding-left: 10px;
+}
